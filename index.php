@@ -5,18 +5,13 @@
  * @package Aquila
  */
 
+get_header();
+
 ?>
-<!doctype html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-  <title>Wordpress-Theme</title>
-</head>
+<div class="content">
+  Content
+</div>
 
-<body>
-<header>Header</header>
-<footer>Footer</footer>
-</body>
-</html>
+<?php
+get_footer();
