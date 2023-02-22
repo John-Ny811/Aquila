@@ -10,12 +10,13 @@
 
 <!doctype html>
 
-<html lang="en">
+<html lang="<?php language_attributes(); ?>">
 <head>
-  <meta charset="utf-8">
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-  <title>Wordpress-Theme</title>
+  <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class( 'hello-class'); ?>>
+  <?php wp_body_open(); ?>
 <header>Header</header>
